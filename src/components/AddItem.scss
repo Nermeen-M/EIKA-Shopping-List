@@ -1,0 +1,41 @@
+.form{
+    padding: 2rem;
+
+    &-field{
+        margin-bottom: 1.5rem;
+        display: flex;
+        flex-direction: column;
+
+        label{
+            margin-bottom: 0.5rem;
+        }
+
+        input{
+            height: 3rem;
+            font-size: 1rem;
+            padding: 0.8rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            transition: all 0.3s;
+
+            &::placeholder{
+                color:#ccc;
+            }
+
+            &:focus{
+                outline: 0;
+                border-color: #0058AB !important;
+            }
+        }
+        .error{
+            color:rgb(237, 11, 11);
+            font-size:0.8rem;
+            margin-top: 0.5rem;
+        }
+    }
+
+    &-actions{
+        display: flex;
+        justify-content: flex-end;
+    }
+}

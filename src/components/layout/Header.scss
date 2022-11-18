@@ -1,0 +1,15 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    
+    .logo{
+        margin-bottom: 1rem;
+    }
+    .title{
+        font-size: 2rem;
+        font-family: "NotoSans-Bold";
+        margin: 2rem;
+    }
+}

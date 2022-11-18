@@ -1,0 +1,57 @@
+.shopping-list {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    border-radius: 2rem;
+    box-shadow: 2px 2px 5px #aaaaaa;
+
+    .sorting-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1rem;
+
+        span{
+            margin: 1rem;
+        }
+        button{
+            margin: 1rem;
+            background: none;
+            border: none;
+            text-decoration: dotted;
+            font-size: 1rem;
+            border-bottom: 1px solid;
+            cursor: pointer;
+
+            &:hover{
+                color: #0058AB;
+            }
+        }
+    }
+    .primary-btn{
+        align-self: center;
+    }
+
+    .toggle-btn{
+        background: none;
+        border: none;
+        margin: 1rem auto;
+        border-bottom: 1px solid;
+        cursor: pointer;
+        padding: 0.5rem;
+        font-size: 1rem;
+
+        &:hover{
+            color: #0058AB;
+        }
+    }
+
+    @media(min-width:768px){
+        width: 60%;
+    }
+    @media(min-width:992px){
+        width: 40%;
+    }
+}
