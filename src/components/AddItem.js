@@ -1,12 +1,12 @@
 import { useState, useEffect, useContext } from "react";
-// import { Navigate, useNavigate } from 'react-router-dom';
+// import { Navigate, useNavigate } from 'react-router-dom'; // don't comment imports, remove them
 
 import Modal from "./Modal";
 import DataContext from "../store/data-context";
 
 
 import "./AddItem.scss";
-import ItemsList from "./ItemsList";
+import ItemsList from "./ItemsList"; // formating -1 unused import
 
 const AddItem = (props) => {
     const dataCtx = useContext(DataContext);
